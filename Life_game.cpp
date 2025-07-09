@@ -2,6 +2,11 @@
 
 int main() {
     G screen;
-    screen.update();
+    while (true) {
+        screen.input();
+        screen.clearpixels();
+        screen.drawpixel(100, 100);
+        screen.update();
+    }
     return 0;
 }
