@@ -46,7 +46,7 @@ public:
 
     void update()
     {
-        SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+        SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
         SDL_RenderClear(renderer);
 
         for (size_t i = 0; i < points.size(); ++i)
